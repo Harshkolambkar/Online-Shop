@@ -1,0 +1,184 @@
+<!doctype html>
+<head>
+	<link rel="stylesheet" href="bootstrap.css">
+	<link rel="stylesheet" href="style1.css">
+	<link rel="stylesheet" href="style.css">
+	<script src="jquery.js"></script>
+	<script src="popper.js"></script>
+	<script src="bootstrap.js"></script>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<script>
+		/* Set the width of the side navigation to 250px */
+		function openNav() {
+		  document.getElementById("mySidenav").style.width = "250px";
+		}
+
+		/* Set the width of the side navigation to 0 */
+		function closeNav() {
+		  document.getElementById("mySidenav").style.width = "0";
+		}
+
+	</script>
+	</head>
+<body>
+
+	<header>
+		
+		<div class="row">
+			<div class="col-6 col-sm-6 col-md-6 col-lg-6 col-xl-6">
+				<img src="images/logo1.png" class="img-fluid max-auto" height="150" width="150">
+			</div>
+		</div>
+		
+	</header>
+	
+	<nav class="navbar navbar-expand-md bg-dark navbar-dark">
+  <a class="navbar-brand" href="index.html">HOME</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="collapsibleNavbar">
+    <ul class="navbar-nav">
+		<li class="nav-item dropdown">
+					<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> Electronics </a>
+						<div class="dropdown-menu" aria-labelledby="navbarDropdown">
+					  <a class="dropdown-item" href="laptop.html">Laptop</a>
+					  <a class="dropdown-item" href="speakers.html">Speakers</a>
+					  <a class="dropdown-item" href="mobile.html">Mobiles</a>
+		</li>
+        <li class="nav-item">
+        <a class="nav-link" href="toys.html">Toys</a>
+        </li>
+        <li class="nav-item">
+        <a class="nav-link" href="furniture.html">Furniture</a>
+        </li>
+        <li class="nav-item">
+        <a class="nav-link" href="gym.html">Gym</a>
+        </li>
+	</ul>
+		<form class="form-inline my-2 my-lg-0">
+		  <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+		  <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+		</form>	
+  </div> 
+</nav>
+
+<content>
+	<div class="row">
+	  <div class="col-2">
+	  <div id="mySidenav" class="sidenav">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+  <li id="head"> GYM EQUIPMENT </li>
+			<li><a href="#">Strength training </a></li>
+			<li><a href="#"> Home Gym System</a></li>
+			<li><a href="#"> Weights </a></li>
+			<li><a href="#">Resistance bands</a></li>
+			<li><a href="#">Exercise and Fitness accessories</a></li>
+			<li><a href="#">Dumbells</a></li>
+</div>
+
+<!-- Use any element to open the sidenav -->
+<span onclick="openNav()"><i class="fa fa-navicon fa-2x"></i></span>
+	</div>
+	  <div class="col-10" id="hi1">
+		<div class="container">
+			<div class="card-columns">
+			  <div class="card">
+				<img class="card-img-top" src="images/gym1.jpg" alt="Card image cap">
+				<div class="card-body">
+				  <h5 class="card-title">Card title that wraps to a new line</h5>
+				  <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+				</div>
+			  </div>
+			  <div class="card p-3">
+			  <img class="card-img-top" src="images/gym2.jpg" alt="Card image cap">
+				<div class="card-body">
+				  <h5 class="card-title">Card title that wraps to a new line</h5>
+				  <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+				</div>
+			  </div>
+			  <div class="card">
+				<img class="card-img-top" src="images/gym3.jpg" alt="Card image cap">
+				<div class="card-body">
+				  <h5 class="card-title">Card title</h5>
+				  <p class="card-text">vdjbjdvbsdvnsdkjvndsjvn</p>
+				  <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+				</div>
+			  </div>
+			  <div class="card text-center p-3">
+				<img class="card-img-top" src="images/gym4.jpg" alt="Card image cap">
+				<div class="card-body">
+				  <h5 class="card-title">Card title that wraps to a new line</h5>
+				  <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+				</div>
+			  </div>
+			  <div class="card text-center">
+				<img class="card-img-top" src="images/gym5.jpg" alt="Card image cap">
+				<div class="card-body">
+				  <h5 class="card-title">Card title that wraps to a new line</h5>
+				  <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+				</div>
+			  </div>
+			  <div class="card p-3 text-right">
+				<img class="card-img-top" src="images/gym6.jpg" alt="Card image cap">
+				<div class="card-body">
+				  <h5 class="card-title">Card title that wraps to a new line</h5>
+				  <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+				</div>
+			  </div>
+			</div>
+		</div>
+	  </div>
+	</div>
+</content>
+
+<footer>
+	<div class="row">
+	  <div class="col">
+		<ul>
+			<li id="head">Get to Know Us</li>
+			<li><a href="#">About Us</a></li>
+			<li><a href="#">Careers</a></li>
+			<li><a href="#">Press Releases</a></li>
+			<li><a href="#">Online Shop Cares</a></li>
+			<li><a href="#">Gift a Smile</a></li>
+			<li><a href="#">Online Shop Science</a></li>
+		</ul>
+	  </div>
+	  <div class="col">
+		<ul>
+			<li id="head">Connect with Us</li>
+			<li><a href="#">Facebook</a></li>
+			<li><a href="#">Twitter</a></li>
+			<li><a href="#">Instagram</a></li>
+		</ul>
+	  </div>
+	  <div class="col">
+		<ul>
+			<li id="head">Make Money with Us</li>
+			<li><a href="#">Sell on Online shop</a></li>
+			<li><a href="#">Sell under Online Shop Accelerator</a></li>
+			<li><a href="#">Online Shop Global Selling</a></li>
+			<li><a href="#">Become an Affiliate</a></li>
+			<li><a href="#">Fulfilment by Online Shop</a></li>
+			<li><a href="#">Advertise Your Products</a></li>
+			<li><a href="#">Online Shop Pay on Merchants</a></li>
+		</ul>
+	  </div>
+	  <div class="col">
+		<ul>
+			<li id="head">Let Us Help You</a></li>
+			<li><a href="#">COVID-19 and Online Shop</a></li>
+			<li><a href="#">Your Account</a></li>
+			<li><a href="#">Returns Centre</a></li>
+			<li><a href="#">100% Purchase Protection</a></li>
+			<li><a href="#">Online shop App Download</a></li>
+			<li><a href="#">Online Shop Assistant Download</a></li>
+			<li><a href="#">Help</a></li>
+		</ul>
+	  </div>
+	</div>
+</footer>
+</body>
+</html>
