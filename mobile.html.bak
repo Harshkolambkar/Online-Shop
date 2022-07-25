@@ -88,44 +88,49 @@
 			  <div class="card">
 				<img class="card-img-top" src="images/mob1.jpg" alt="Card image cap">
 				<div class="card-body">
-				  <h5 class="card-title">Card title that wraps to a new line</h5>
-				  <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+				  <h5 class="card-title">Samsung Galaxy M35</h5>
+				  <p class="card-text">₹30000.00</p>
+				  <p class="card-text">By Samsung</p>
 				</div>
 			  </div>
 			  <div class="card p-3">
 			  <img class="card-img-top" src="images/mob2.jpg" alt="Card image cap">
 				<div class="card-body">
-				  <h5 class="card-title">Card title that wraps to a new line</h5>
-				  <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+				  <h5 class="card-title">Readme 9A</h5>
+				  <p class="card-text">₹6999.00</p>
+				  <p class="card-text">By Readme</p>
 				</div>
 			  </div>
 			  <div class="card">
 				<img class="card-img-top" src="images/mob3.jpg" alt="Card image cap">
 				<div class="card-body">
-				  <h5 class="card-title">Card title</h5>
-				  <p class="card-text">vdjbjdvbsdvnsdkjvndsjvn</p>
-				  <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+				  <h5 class="card-title">Realme Narzo</h5>
+				  <p class="card-text">₹8999.00</p>
+				  <p class="card-text">By Realme</p>
 				</div>
 			  </div>
 			  <div class="card text-center p-3">
 				<img class="card-img-top" src="images/mob4.jpg" alt="Card image cap">
 				<div class="card-body">
-				  <h5 class="card-title">Card title that wraps to a new line</h5>
-				  <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+				  <h5 class="card-title">Vivo X-60</h5>
+				  <p class="card-text">₹16000.00</p>
+				  <p class="card-text">By Vivo</p>
 				</div>
 			  </div>
 			  <div class="card text-center">
 				<img class="card-img-top" src="images/mob5.jpg" alt="Card image cap">
 				<div class="card-body">
-				  <h5 class="card-title">Card title that wraps to a new line</h5>
-				  <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+				  <h5 class="card-title">Oppo A54</h5>
+				  <p class="card-text">₹5999.00</p>
+				  <p class="card-text">By Oppo</p>
 				</div>
 			  </div>
 			  <div class="card p-3 text-right">
-				<img class="card-img-top" src="images/mob6.jpg" alt="Card image cap">
+				<img class="card-img-top" src="images/gym6.jpg" alt="Card image cap">
 				<div class="card-body">
-				  <h5 class="card-title">Card title that wraps to a new line</h5>
-				  <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+				  <h5 class="card-title">Iphone</h5>
+				  <p class="card-text">₹3999.00</p>
+				  <p class="card-text">By Apple</p>
 				</div>
 			  </div>
 			</div>
